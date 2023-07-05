@@ -1,1 +1,120 @@
-/*# sourceMappingURL=styles.css.map */
+body {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+body h1,
+body h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+body i {
+  color: #7e7e7e;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header #head {
+  margin: 30px 0 15px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header #location {
+  width: 100%;
+  border-top: 1px solid #818181;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+header #location p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+#main-head {
+  text-align: center;
+  padding: 10px;
+}
+#main-head p {
+  font-size: 18px;
+  line-height: 21.09px;
+  font-weight: 300;
+}
+#main-head a {
+  display: inline-block;
+}
+#main-head a button {
+  width: 218px;
+  height: 50px;
+  top: 293px;
+  left: 82px;
+  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
+}
+
+#main-work {
+  padding-left: 22px;
+}
+#main-work ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 30px 0 0 0;
+}
+#main-work ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 25px;
+}
+#main-work ul li span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #9356dc;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+#main-work ul li i {
+  width: 10px;
+}
+#main-work ul li p {
+  font-weight: 500;
+  line-height: 19px;
+}
+#main-work ul #third i {
+  color: #9356dc;
+}
+
+footer {
+  align-items: center;
+  background-color: #353535;
+  color: white;
+}
+footer #footer-div {
+  align-items: center;
+}
+footer #footer-div .icon-footer {
+  width: 5px;
+}
+footer #footer-div p {
+  align-items: center;
+  margin: 0 10px;
+}
+footer #footer-div p i {
+  margin-right: 10px;
+}/*# sourceMappingURL=styles.css.map */
