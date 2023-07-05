@@ -7,140 +7,160 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
   </head>
 
   <body>
-
     <header>
-      <img class="logo" src="images/logo/ohmyfood@2x.svg" alt="Logo Booki" />
-      <div>
+      <div id="head">
+        <div id="head-icon">
+          <i class="fa-sharp fa-regular fa-arrow-left"></i>
+        </div>
+        <div id="head-logo">
+          <img id="logo" src="images/logo/ohmyfood@2x.svg" alt="Logo Booki" />
+        </div>
+      </div>
+      <div id="location">
         <i class="fa-lg fa-solid fa-location-dot"></i>
         <p>Paris, Belleville</p>
       </div>
     </header>
 
-    <section>
-      <h1>Réservez le menu qui vous convient</h1>
-      <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-      <a href="#restaurant">
-        <button>Explorez nos restaurants</button>
-      </a>
-      
-    </section>
+    <main>
+      <section id="main-head">
+        <h1>Réservez le menu qui vous convient</h1>
+        <p>
+          Découvrez des restaurants d'exception, sélectionnés par nos soins.
+        </p>
+        <a href="#restaurant">
+          <button>Explorez nos restaurants</button>
+        </a>
+      </section>
 
-    <section>
-      <h2>Fonctionnement</h2>
-      <ul>
+      <section id="main-work">
+        <h2>Fonctionnement</h2>
+        <ul>
+          <li>
+            <span>1</span>
+            <i class="fa-lg fa-sharp fa-solid fa-mobile-screen-button"></i>
+            <p>Choisissez un restaurant</p>
+          </li>
 
-        <li>
-          <span>1</span>
-          <i class="fa-lg fa-sharp fa-solid fa-mobile-screen-button"></i>
-          <p>Choisissez un restaurant</p>
-        </li>
+          <li>
+            <span>2</span>
+            <i class="fa-lg fa-solid fa-list-ul"></i>
+            <p>Composez votre menu</p>
+          </li>
 
-        <li>
-          <span>2</span>
-          <i class="fa-lg fa-solid fa-list-ul"></i>
-          <p>Composez votre menu</p>
-        </li>
+          <li id="third">
+            <span>3</span>
+            <i class="fa-lg fa-solid fa-store"></i>
+            <p>Dégustez au restaurant</p>
+          </li>
+        </ul>
+      </section>
 
-        <li>
-          <span>3</span>
-          <i class="fa-lg fa-solid fa-store"></i>
-          <p>Dégustez au restaurant</p>
-        </li>
-
-      </ul>
-    </section>
-
-    <section>
-      <h2 id="restaurant">Restaurants</h2>
-      <ul>
-        <li>
-          <div>
-            <a>
-              <div>
-                <div><p>Nouveau</p></div>
-              </div>
-              <div>
+      <section>
+        <h2 id="restaurant">Restaurants</h2>
+        <ul>
+          <li>
+            <div>
+              <a href="">
                 <div>
-                  <h3>La Palette du goût</h3>
-                  <p>Menilmontant</p>
+                  <img href="images/restaurants/" />
+                  <div><p>Nouveau</p></div>
                 </div>
                 <div>
-                  <i class="fa-lg fa-regular fa-heart"></i>
+                  <div>
+                    <h3>La Palette du goût</h3>
+                    <p>Menilmontant</p>
+                  </div>
+                  <div>
+                    <i class="fa-lg fa-regular fa-heart"></i>
+                  </div>
                 </div>
-              </div>
-            </a>
-          </div>
-        </li>
-
-        <li>
-          <div>
-            <div>
-              <div><p>Nouveau</p></div>
+              </a>
             </div>
+          </li>
+
+          <li>
             <div>
-              <div>
-                <h3>La note enchantée</h3>
-                <p>Charonne</p>
-              </div>
-              <div>
-                <i class="fa-lg fa-regular fa-heart"></i>
-              </div>
+              <a href="">
+                <div>
+                  <div><p>Nouveau</p></div>
+                </div>
+                <div>
+                  <div>
+                    <h3>La note enchantée</h3>
+                    <p>Charonne</p>
+                  </div>
+                  <div>
+                    <i class="fa-lg fa-regular fa-heart"></i>
+                  </div>
+                </div>
+              </a>
             </div>
-          </div>
-        </li>
+          </li>
 
-        <li>
-          <div>
-            <div></div>
+          <li>
             <div>
-              <div>
-                <h3>À la française</h3>
-                <p>Cité rouge</p>
-              </div>
-              <div>
-                <i class="fa-lg fa-regular fa-heart"></i>
-              </div>
+              <a href="">
+                <div></div>
+                <div>
+                  <div>
+                    <h3>À la française</h3>
+                    <p>Cité rouge</p>
+                  </div>
+                  <div>
+                    <i class="fa-lg fa-regular fa-heart"></i>
+                  </div>
+                </div>
+              </a>
             </div>
-          </div>
-        </li>
+          </li>
 
-        <li>
-          <div>
-            <div></div>
+          <li>
             <div>
-              <div>
-                <h3>Le délice des sens</h3>
-                <p>Folie-Méricourt</p>
-              </div>
-              <div>
-                <i class="fa-lg fa-regular fa-heart"></i>
-              </div>
+              <a href="">
+                <div></div>
+                <div>
+                  <div>
+                    <h3>Le délice des sens</h3>
+                    <p>Folie-Méricourt</p>
+                  </div>
+                  <div>
+                    <i class="fa-lg fa-regular fa-heart"></i>
+                  </div>
+                </div>
+              </a>
             </div>
-          </div>
-        </li>
-
-      </ul>
-
-    </section>
+          </li>
+        </ul>
+      </section>
+    </main>
 
     <footer>
-      <img
-        class="bottom_logo"
-        src="images/logo/ohmyfood@2x.svg"
-        alt="Logo Booki"
-      />
-      <p><i class="fa-sm fa-solid fa-utensils"></i> Proposer un restaurant</p>
-      <p><i class="fa-sm fa-solid fa-handshake-angle"></i> Devenir partenaire</p>
-      <p>Mentions légales</p>
-      <p>Contact</p>
+      <div id="footer-div">
+        <img
+          id="bottom_logo"
+          src="images/logo/ohmyfood@2x.svg"
+          alt="Logo Booki"
+        />
+        <p>
+          <i class="icon-footer fa-sm fa-solid fa-utensils"></i> Proposer un
+          restaurant
+        </p>
+        <p>
+          <i class="icon-footer fa-sm fa-solid fa-handshake-angle"></i> Devenir
+          partenaire
+        </p>
+        <p>Mentions légales</p>
+        <p>Contact</p>
+      </div>
     </footer>
   </body>
 </html>
