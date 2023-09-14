@@ -12,13 +12,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    
   </head>
 
   <body>
     <header>
       <div id="head">
         <div id="head-icon">
-          <i class="fa-sharp fa-regular fa-arrow-left"></i>
+          <i class="fas fa-arrow-left"></i>
         </div>
         <div id="head-logo">
           <img id="logo" src="images/logo/ohmyfood@2x.svg" alt="Logo Booki" />
@@ -64,77 +65,121 @@
         </ul>
       </section>
 
-      <section>
-        <h2 id="restaurant">Restaurants</h2>
+      <section id="main-restaurant">
+        <h2>Restaurants</h2>
         <ul>
           <li>
-            <div>
-              <a href="">
-                <div>
-                  <img href="images/restaurants/" />
-                  <div><p>Nouveau</p></div>
+            <div class="restaurant">
+              <a href="restaurants/restaurant1.html">
+                <div class="restaurant-visual">
+                  <div class="new"><p>Nouveau</p></div>
+                  <img
+                    src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                  />
                 </div>
-                <div>
+                <div class="restaurant-content">
                   <div>
                     <h3>La Palette du goût</h3>
                     <p>Menilmontant</p>
                   </div>
-                  <div>
-                    <i class="fa-lg fa-regular fa-heart"></i>
-                  </div>
+                  <label class="restaurant-content-icons icons">
+                    <input
+                      type="checkbox"
+                      id="restaurant1"
+                      name="restaurant-liked"
+                      value="1"
+                    />
+                    <i class="far fa-heart icons-notLiked icons-notLiked"></i>
+                    <i class="fas fa-heart icons-liked"></i>
+                  </label>
                 </div>
               </a>
             </div>
           </li>
 
           <li>
-            <div>
-              <a href="">
-                <div>
-                  <div><p>Nouveau</p></div>
+            <div class="restaurant">
+              <a href="restaurants/restaurant2.html">
+                <div class="restaurant-visual">
+                  <div class="new"><p>Nouveau</p></div>
+                  <img
+                    src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                  />
                 </div>
-                <div>
+                <div class="restaurant-content">
                   <div>
                     <h3>La note enchantée</h3>
                     <p>Charonne</p>
                   </div>
-                  <div>
-                    <i class="fa-lg fa-regular fa-heart"></i>
-                  </div>
+                  <label class="restaurant-content-icons icons">
+                    <input
+                      type="checkbox"
+                      id="restaurant2"
+                      name="restaurant-liked"
+                      value="1"
+                    />
+                    <i class="far fa-heart icons-notLiked icons-notLiked"></i>
+                    <i class="fas fa-heart icons-liked"></i>
+                  </label>
+                </div>
                 </div>
               </a>
             </div>
           </li>
 
           <li>
-            <div>
-              <a href="">
-                <div></div>
-                <div>
+            <div class="restaurant">
+              <a href="restaurants/restaurant3.html">
+                <div class="restaurant-visual">
+                  <img
+                    src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                  />
+                </div>
+                <div class="restaurant-content">
                   <div>
                     <h3>À la française</h3>
                     <p>Cité rouge</p>
                   </div>
-                  <div>
-                    <i class="fa-lg fa-regular fa-heart"></i>
-                  </div>
+                  <label class="restaurant-content-icons icons">
+                    <input
+                      type="checkbox"
+                      id="restaurant3"
+                      name="restaurant-liked"
+                      value="1"
+                    />
+                    <i class="far fa-heart icons-notLiked icons-notLiked"></i>
+                    <i class="fas fa-heart icons-liked"></i>
+                  </label>
+                </div>
                 </div>
               </a>
             </div>
           </li>
 
           <li>
-            <div>
-              <a href="">
-                <div></div>
-                <div>
+            <div class="restaurant">
+              <a href="restaurants/restaurant4.html">
+                <div class="restaurant-visual">
+                  <img
+                    src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                  />
+                </div>
+                <div class="restaurant-content">
                   <div>
                     <h3>Le délice des sens</h3>
                     <p>Folie-Méricourt</p>
                   </div>
-                  <div>
-                    <i class="fa-lg fa-regular fa-heart"></i>
-                  </div>
+                  <label class="restaurant-content-icons icons">
+                    <input
+                      type="checkbox"
+                      id="restaurant4"
+                      name="restaurant-liked"
+                      value="1"
+                    />
+                    <i class="far fa-heart icons-notLiked icons-notLiked"></i>
+                    <i class="fas fa-heart icons-liked"></i>
+                  </label>
+                </div>
                 </div>
               </a>
             </div>
@@ -145,21 +190,19 @@
 
     <footer>
       <div id="footer-div">
-        <img
-          id="bottom_logo"
-          src="images/logo/ohmyfood@2x.svg"
-          alt="Logo Booki"
-        />
-        <p>
-          <i class="icon-footer fa-sm fa-solid fa-utensils"></i> Proposer un
-          restaurant
-        </p>
-        <p>
-          <i class="icon-footer fa-sm fa-solid fa-handshake-angle"></i> Devenir
-          partenaire
-        </p>
-        <p>Mentions légales</p>
-        <p>Contact</p>
+        <h2 id="footer-title">ohmyfood</h2>
+        <div id="footer-content">
+          <p>
+            <i class="icon-footer fa-sm fa-solid fa-utensils"></i> Proposer un
+            restaurant
+          </p>
+          <p>
+            <i class="icon-footer fa-sm fa-solid fa-handshake-angle"></i> Devenir
+            partenaire
+          </p>
+          <p>Mentions légales</p>
+          <p>Contact</p>
+        </div>
       </div>
     </footer>
   </body>
